@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    
+
+    <style>
+        h1 {
+            text-shadow: 0 0 3px #FFD700;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            padding-left: 20px;
+            padding-top: 20px;
+        }
+
+        .container img {
+            height: 200px;
+            width: 150px;
+            margin-right: 60px;
+            max-width: 60%;
+            border-radius: 40%;
+
+        }
+
+        .name {
+            font-size: xx-large;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .name:hover {
+            color: goldenrod;
+        }
+
+        .description {
+            padding-left: 20px;
+            padding-top: 20px;
+            font-size: large;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            line-height: 1.6;
+        }
+
+        .education-skill-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+            
+        }
+
+        .skill span {
+            display: inline-block;
+            background-color: #f2d9d0;
+            padding: 5px 10px;
+            border-radius: 4px;
+            margin-right: 10px;
+            margin-bottom: 5px;
+            width: 120px;
+            text-align: center;
+        }
+
+        .skill-row {
+            display: flex;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+        }
+
+        .skill-row div {
+            margin-right: 20px;
+        }
+
+        .skill span:hover {
+            color: brown;
+        }
+
+        .buttons {
+            text-align:end;
+            padding-top: 10px;
+        }
+
+        
+
+        .buttons button {
+            font-size: 16px;
+            background-color: #FFD700;
+            border: none;
+            border-radius: 8px;
+            color: black;
+        
+            margin:1px;
+            cursor: pointer;
+            
+        }
+
+        .buttons button:hover {
+            background-color:greenyellow
+        }
+
+        h3.my-profile:hover {
+            color: goldenrod;
+            text-shadow: 2px 2px 5px #FFD700;
+            cursor: pointer;
+            
+        }
+        .container{
+
+        }
+
+    </style>
+</head>
+
+<body style="background-color: bisque; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+    
+
+    
+    <div class="buttons">
+        
+            <button>Gmail</button>
+        
+
+        
+        
+            <button>WhatsApp</button>
+        
+
+        
+        
+            <button>LinkedIn</button>
+        
+    </div>
+
+    <div class="container">
+        <img src="Gaurav passport.jpg" alt="Gaurav image">
+        <div class="name">GAURAV SHINDE</div>
+    </div>
+
+    <div class="description">
+        <h2>ABOUT ME :-</h2>
+        <p>Hello! I am Gaurav Shinde, a passionate software developer with a deep interest in web technologies and AI. I
+            have honed my skills in full-stack development, working on various projects that involve both front-end and
+            back-end technologies in future.</p>
+
+    </div>
+    <h3 class="my-profile"
+        style="font-size: 50px;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;text-align:center">
+        MY PROFILE</h3>
+
+    
+    <div class="education-skill-container">
+        <div class="education">
+            <h3 class="section-title">Education</h3>
+            <p><strong>B.E Artificial Intelligence <br>& Data Science</strong></p>
+            <p><strong>Savitribai Phule Pune University
+            </strong></p>
+        </div>
+
+        
+        <div class="skill">
+            <h3 class="section-title">Skills</h3>
+            <div class="skill-row">
+                <div><span>Creativity</span></div>
+                <div><span>Management</span></div>
+            </div>
+            <div class="skill-row">
+                <div><span>Leadership</span></div>
+                <div><span>Teamwork</span></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
